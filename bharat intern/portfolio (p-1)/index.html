@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/547b30083f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Archit </span><br> Saxena from India</h1> 
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------ABOUT------------------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/mp2.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> Hello every one i am Archit Saxena , i have been born and brought up in kanpur , uttar pradersh. currently i am pursuing Btech cse from maharana pratap engineering college , kanpur</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick=" opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick=" opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web/App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023- Current</span><br>UI/UX Designer in College event</li>
+                            <li><span>2022-2023</span><br> Team lead at Jarvis</li>
+                            <li><span>2022</span><br> Intership at infoedge</li>
+                            <li><span>2023</span><br> Intership at Bharat Intern</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Web Development Trainig </li>
+                            <li><span>2021</span><br>Btech from MPEC kanpur</li>
+                            <li><span>2020</span><br>schooling from WMIS kanpur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------services----------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web development, short for web development, refers to the process of creating and maintaining websites or web applications for the internet or an intranet. It encompasses a range of tasks and disciplines that come together to build the visual and functional aspects of websites. Here's a brief introduction to some key aspects of web development:
+
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>User experience design is a human-first way of designing products. Don Norman, a cognitive scientist and co-founder of the Nielsen Norman Group Design Consultancy, is credited with coining the term “user experience” in the late 1990s.
+
+                    Here’s how he describes it: “User experience encompasses all aspects of the end-user’s interaction with the company, its services, and its products.”
+                    
+                    Don Norman’s definition tells us that, regardless of its medium plenty of non-digital UX (and there are lots out there) UX Design encompasses any and all interactions between a potential or active customer and a company.
+                    
+                    </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>APP Design</h2>
+                <p>Mobile application development is the process of making software for smartphones, tablets and digital assistants, most commonly for the Android and iOS operating systems. The software can be preinstalled on the device, downloaded from a mobile app store or accessed through a mobile web browser. The programming and markup languages used for this kind of software development include Java, Swift, C# and HTML5.
+
+                Mobile app development is rapidly growing. From retail, telecommunications and e-commerce to insurance, healthcare and government, organizations across industries must meet user expectations for real-time
+                    
+                    </p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+ 
+    </div>
+</div>
+<!-- ------------------------portfolio---------------------------------- -->
+<div id="portfolio">
+
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/mp2.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quisquam officia incidunt deserunt 
+                    sed quo repellendus beatae placeat dolore corrupti, labore aut autem harum quibusdam aperiam nihil iste, voluptate ab.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/mp3.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quisquam officia incidunt deserunt 
+                    sed quo repellendus beatae placeat dolore corrupti, labore aut autem harum quibusdam aperiam nihil iste, voluptate ab.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/mp4.jpg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quisquam officia incidunt deserunt 
+                    sed quo repellendus beatae placeat dolore corrupti, labore aut autem harum quibusdam aperiam nihil iste, voluptate ab.</P>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------------------------------contact----------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>saxenaarchit140@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>8429428622</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100093602605919"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/whoarchiii_?t=2D_y_wQmnXOIRiWzuAybpg&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://instagram.com/whoarchiii_?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/archit-saxena-43140923b"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/my resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name " required>
+                    <input type="email" name="Name" placeholder="Your Email" required>
+                    <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+           
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright @ archit <i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+
+</div>
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+</script>  
+
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
